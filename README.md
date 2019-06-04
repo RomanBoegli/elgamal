@@ -2,7 +2,7 @@
 
 Given the prime p = 65497 and the generator g = 134 of ( Zp*, ⊗, 1). The number a = 17 is Alice’s secret El Gamal key.
 
-a) Verify that p is prime and g is a generator of ( Z ∗ p, ⊗, 1).
+a) Verify that p is prime and g is a generator of ( Zp*, ⊗, 1).
 
 b) Calculate the public El Gamal key of Alice.
 
