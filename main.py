@@ -60,16 +60,6 @@ def gcd(x, y):
     return x
 
 
-def getDenominator(n):
-    c = 0
-    lReturn = 0
-    while c < 1:
-        c += n
-        lReturn += 1
-
-    return lReturn
-
-
 def inverseMod(a, b):
     #a = denominator
 
@@ -88,7 +78,6 @@ def inverseMod(a, b):
 def negativeMod(a, b):
     lReturn = b - (a*(-1) % b)
     return lReturn
-
 
 
 def progressBar(value, endvalue, bar_length=20):
