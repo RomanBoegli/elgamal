@@ -60,16 +60,6 @@ def gcd(x, y):
     return x
 
 
-def getDenominator(n):
-    c = 0
-    lReturn = 0
-    while c < 1:
-        c += n
-        lReturn += 1
-
-    return lReturn
-
-
 def inverseMod(a, b):
     #a = denominator
 
@@ -90,7 +80,6 @@ def negativeMod(a, b):
     return lReturn
 
 
-
 def progressBar(value, endvalue, bar_length=20):
 
     percent = float(value) / endvalue
@@ -107,7 +96,7 @@ def progressBar(value, endvalue, bar_length=20):
 
 
 #map size (p) and generator (g)
-p = 541 #65497 #41 #should be a prime
+p = 541 #65497 #41 #make sure it's a prime
 g = 128 #134 #7
 
 #private key of Alice
