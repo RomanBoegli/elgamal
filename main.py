@@ -96,7 +96,7 @@ def progressBar(value, endvalue, bar_length=20):
 
 
 #map size (p) and generator (g)
-p = 541 #65497 #41 #make sure it's a prime
+p = 541 #65497 #41 #make sure it's a prime!
 g = 128 #134 #7
 
 #private key of Alice
